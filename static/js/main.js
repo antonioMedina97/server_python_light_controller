@@ -13,9 +13,6 @@
       
     var color_test = document.querySelector('.color_test');
 
-    console.log('json sent' + JSON.stringify({"data": "#FFF000"}))
-
-
     let picked_color = colorPicker.color.hexString;
 
     let json_color = {
